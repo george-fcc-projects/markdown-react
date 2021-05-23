@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MarkdownPreviewer from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MarkdownPreviewer />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
