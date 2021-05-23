@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -49,8 +51,9 @@
   flex-grow: 1;
   min-width: 50vw;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
   min-height: 90vh;
+  display: flex;
 }
 
 .flex-container {
@@ -62,7 +65,14 @@
 }
 
 .editBox {
-  min-width: 40vw;
+  min-width: 80%;
   min-height: 65vh;
   font-size: 20px;
+}
+
+.renderBox {
+  border: 2px solid black;
+  min-width: 100%;
+  text-align: left;
+  flex-grow: 1;
 }
